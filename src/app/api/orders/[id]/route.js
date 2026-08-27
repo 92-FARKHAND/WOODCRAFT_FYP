@@ -138,7 +138,6 @@ export const GET = apiHandler(async (req, { params }) => {
     .populate("customerId", "name email contact address")
     .populate("assignEmployeeId", "name email contact")
     .populate("usedMaterials.materialId")
-    .populate("materialId")
     .populate("serviceId");
 
   if (!order) {
