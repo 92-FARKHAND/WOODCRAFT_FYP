@@ -34,7 +34,7 @@ const CustomerDashboard = ({ user = {} }) => {
     },
     {
       title: "Total Spent",
-      value: invoicesLoading ? "..." : `PKR ${totalSpent.toLocaleString()}`,
+      value: invoicesLoading ? "..." : `$ ${totalSpent.toLocaleString()}`,
       icon: <CreditCard className="h-5 w-5" />,
       color: "emerald"
     },
