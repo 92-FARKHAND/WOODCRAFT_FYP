@@ -121,7 +121,7 @@ const CustomerDashboard = ({ user = {} }) => {
                         <Package className="h-6 w-6" />
                       </div>
                       <div>
-                        <h4 className="font-bold text-lg">{order.item}</h4>
+                        <h4 className="font-bold text-sm">{order.item}</h4>
                         <p className="text-sm text-muted-foreground">ID: {order.id} • {order.status}</p>
                       </div>
                     </div>
